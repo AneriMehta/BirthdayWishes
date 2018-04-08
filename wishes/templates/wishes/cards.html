@@ -18,7 +18,7 @@
 <body>
   <ul class="nav justify-content-center">
     <li class="nav-item">
-      <a class="btn btn-warning" href="{% url 'welcome' %}" role="button">HOME</a>
+      <a class="btn btn-danger" href="{% url 'welcome' %}" role="button">HOME</a>
     </li>
   </ul>
   <div class="di">
@@ -27,7 +27,7 @@
     <div class="card text-white bg-danger mb-3" style="max-width: 12rem;">
       <div class="card-header">{{ c.title }}</div>
       <div class="card-body">
-        <h5 class="card-title">I LOVE YOU</h5>
+        <h5 class="card-title">Happy Birthday</h5>
         <h3 class="card-text">MAA</h3>
         <a href="{% url 'card' pk=c.pk %}" class="card-link">Card link</a>
       </div>
